@@ -22,7 +22,12 @@ const Hero = () => {
         handleClick={handleScroll}
         />
       </div>
-      
+      <div className='hero__image-container'>
+        <div className="hero__image">
+          <Image src="" />
+        </div>
+      </div>
+
     </div>
   )
 }
