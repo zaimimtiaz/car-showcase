@@ -3,7 +3,7 @@ import image from 'next/image';
 import CustomButton from './CustomButton';
 
 const Hero = () => {
-  const handleScroll = () = {
+  const handleScroll = () => {
 
   }
   return (
@@ -22,6 +22,7 @@ const Hero = () => {
         handleClick={handleScroll}
         />
       </div>
+      
     </div>
   )
 }
